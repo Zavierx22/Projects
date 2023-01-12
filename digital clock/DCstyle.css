@@ -1,0 +1,61 @@
+body{
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 200px;
+    height: 100vh;
+    justify-content: center;
+    background-image: url("https://images6.alphacoders.com/547/thumbbig-547742.webp");
+    overflow: hidden;;
+    background-size: cover;
+      
+
+}
+h1{
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: 30px;
+    padding-left: 78px;
+}
+
+.clock{
+    display: flex;
+    letter-spacing: 1px;
+}
+
+.clock div{
+    margin: 5px;
+    position: relative;
+}
+
+.clock span{
+    width: 100px;
+    height: 60px;
+    background-color: yellow;
+    opacity: .6;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+}
+.clock .text{
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+
+    background-color: darkorange;
+    opacity: 0.8;
+    
+}
+
+.clock #ampm{
+    bottom: 0px;
+    position: absolute;
+   width: 60px;
+   height: 25px;
+   font-size: 30px;
+   background-color:darkorange;
+
+}
